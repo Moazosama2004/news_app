@@ -29,7 +29,7 @@ class HomeView extends StatelessWidget {
         ),
         elevation: 0.0,
       ),
-      body: Padding(
+      body: const Padding(
         padding: const EdgeInsets.symmetric(horizontal: 16.0),
         child: CustomScrollView(
           physics: BouncingScrollPhysics(),
