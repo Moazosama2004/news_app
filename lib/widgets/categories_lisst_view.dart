@@ -34,7 +34,7 @@ class CategoriesListView extends StatelessWidget {
         physics: BouncingScrollPhysics(),
         scrollDirection: Axis.horizontal,
         itemCount: categories.length,
-        itemBuilder: (context , index){
+        itemBuilder: (context, index) {
           return CategoryCard(
             category: categories[index],
           );
